@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="./css/dendanong.css">
+        <title>TheGioiCoffee</title>
+        <link rel="icon" href="./image/11zon_cropped.png" type="image/jpg">
+    </head>
+    <body>
+      <div class="header">
+        <ul class="icon">
+          <li>
+            <div class="searchBox">
+              <input class="searchInput" type="text" name placeholder="Search">
+              <button class="searchButton" href="#">
+                <i class="material-icons">search</i>
+              </button>
+            </div>
+          </li>
+        </ul>
+        <div class="container head">
+          
+          <div class="row">
+            <div class="haha">
+              <img src="./image/11zon_cropped.png" alt class="logo" />
+            </div>
+            <!-- <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">MENU</label> -->
+            <div class="col-lg-8 menu">
+  
+              
+              <ul>
+                <li class="hideonmobile"><a href="index.html">Trang chủ
+                    <i class="fa-solid fa-house"></i>
+                  </a></li>
+                <li class="c2 hideonmobile">
+                  <a href="menu.html">MENU
+                    <i class="fa-regular fa-square"></i>
+                  </a>
+  
+                  <ul class="sub-menu">
+                    <li><a href="#">Cà phê</a></li>
+                    <li><a href="#">Trà</a></li>
+                    <li><a href="#">Sinh tố & Nước ép</a></li>
+                    <li><a href="#">Soda</a></li>
+                    <li><a href="#">Bánh ngọt</a></li>
+                    <li><a href="#">Kem</a></li>
+                  </ul>
+                </li>
+  
+                <li class="hideonmobile"><a href="#">Cửa hàng
+                    <i class="fa-solid fa-shop"></i>
+                  </a></li>
+                <li class="hideonmobile"><a href="sanpham.html">Sản Phẩm
+                    <i class="fa-solid fa-newspaper"></i>
+                  </a></li>
+                <li class="hideonmobile"><a href="#">Sự kiện
+                    <i class="fa-solid fa-calendar"></i>
+                  </a></li>
+                <li class="hideonmobile"><a href="#">Liên hệ
+                    <i class="fa-solid fa-phone-volume"></i>
+                  </a></li>
+                  <li class="menu-button" onclick=showSidebar()><i class="fa-solid fa-bars"></i></li>
+              </ul>
+              <ul class="sidebar">
+                <li onclick=hideSidebar()><i class="fa-solid fa-xmark"></i></li>
+                <li><a href="index.html">Trang chủ
+                    <i class="fa-solid fa-house"></i>
+                  </a></li>
+                <li class="c2">
+                  <a href="menu.html">MENU
+                    <i class="fa-regular fa-square"></i>
+                  </a>
+  
+                  <ul class="sub-menu">
+                    <li><a href="#">Cà phê</a></li>
+                    <li><a href="#">Trà</a></li>
+                    <li><a href="#">Sinh tố & Nước ép</a></li>
+                    <li><a href="#">Soda</a></li>
+                    <li><a href="#">Bánh ngọt</a></li>
+                    <li><a href="#">Kem</a></li>
+                  </ul>
+                </li>
+  
+                <li><a href="#">Cửa hàng
+                    <i class="fa-solid fa-shop"></i>
+                  </a></li>
+                <li><a href="sanpham.html">Sản Phẩm
+                    <i class="fa-solid fa-newspaper"></i>
+                  </a></li>
+                <li><a href="#">Sự kiện
+                    <i class="fa-solid fa-calendar"></i>
+                  </a></li>
+                <li><a href="#">Liên hệ
+                    <i class="fa-solid fa-phone-volume"></i>
+                  </a></li>
+            
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class=" sp">
+                <div class="textleft">
+                    <h4>Trang Chủ/Sản Phẩm/Café truyền thống</h4>
+                </div>
+            </div>
+            <div class="container tieude">
+                <div class="tieude">
+                    <h1>Menu</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-5 row26 ">
+                        <a href>
+                            <img src="./image/cafeden.png" style="background-color: rgba(150, 160, 160, 0.13);">
+                        </a>
+                    </div>
+                    <div class="col-md-7 thongtincf">
+                        <h2>Café Phin Đá/Nóng</h2>
+                        <p class="gia">44.000 đồng</p>
+                        <ul>
+                            <li style="color: yellow;">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </ul>
+                        <p class="xem">Lượt xem: 999</p>
+                        <ul class="attr-pro-detail">
+                            <li class="w-clear">
+                                <label class="attr-label-pro-detail d-block">Số
+                                    lượng:</label>
+                                <div class="attr-content-pro-detail d-block">
+                                    <div class="quantity-pro-detail">
+                                        <span
+                                            class="quantity-minus-pro-detail">-</span>
+                                        <input type="number" class="qty-pro"
+                                            min="1" value="1" readonly>
+                                        <span
+                                            class="quantity-plus-pro-detail">+</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="cart-pro-detail">
+
+                            <a
+                                class="add transition addcart text-decoration-none"><i
+                                    class="fas fa-shopping-bag"></i><span>Thêm
+                                    vào giỏ hàng</span></a>
+
+                            <a
+                                class="oder transition addcart text-decoration-none"><i
+                                    class="fas fa-shopping-bag"></i><span>Đặt
+                                    hàng</span></a>
+
+                            <a class="transition chat"><i
+                                    class="fas fa-phone-volume"></i><span>Chat
+                                    zalo</span></a>
+                        </div>
+                        <div class="cart-pro-share">
+
+                            <a
+                                class="like"><i
+                                    class="fa-regular fa-thumbs-up"></i><span>Thích</span></a>
+
+                            <a
+                                class="share"><i
+                                    class="fa-solid fa-share"></i><span>Sẻ</span></a>
+
+                            <a class="poster"><i
+                                    class="fa-brands fa-facebook"></i><span>Bài
+                                    đăng</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_deals usual"> 
+                  <ul class="tab_content"> 
+                      <li><a class="selected">Thông tin sản phẩm</a></li>                     
+                  </ul> 
+                  <div  class="content_tab">
+                    <div class="meta-toc" style="display: none;">
+                        <div class="box-readmore">
+                            <ul class="toc-list"></ul>
+                        </div>
+                    </div>
+                    <div class="noidung"></div>
+                </div> 
+              </div>
+            </div>  
+        <div class="container">
+            <div class="tieude">
+                <h1>Sản Phẩm Khác</h1>
+                <hr>
+            </div>
+            <div class="sanphamkhac">
+                <div class="row row12">
+                        <div class="col-lg-3 col27 ">
+                            <div class="product-card" >
+                              <div class="product-image">
+                                <a href="dendanong.html">
+                                <img src="./image/cafedenda.png"  style="width:150px" class="gv" />
+                              </a>
+                                <div class="thongtinsanpham">
+                                  <p>Cafe đen đá/nóng</p>
+                                  <ul>
+                                    <li style="color: yellow;">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </li>
+                                  </ul>
+        
+                                  <div class="jj">
+                                    <span>1 Gói</span>
+                                    <span>44.000đ</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="buy-button" >Mua Ngay  </button>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col27 ">
+                            <div class="product-card" >
+                              <div class="product-image">
+                                <a href="dendanong.html">
+                                <img src="./image/bac-xiu.png"  style="width:150px" class="gv" />
+                              </a>
+                                <div class="thongtinsanpham">
+                                  <p>Bạc xĩu đá/nóng</p>
+                                  <ul>
+                                    <li style="color: yellow;">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </li>
+                                  </ul>
+        
+                                  <div class="jj">
+                                    <span>1 Gói</span>
+                                    <span>44.000đ</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="buy-button" >Mua Ngay  </button>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col27 ">
+                            <div class="product-card" >
+                              <div class="product-image">
+                                <a href="dendanong.html">
+                                <img src="./image/americano.png"  style="width:150px" class="gv" />
+                              </a>
+                                <div class="thongtinsanpham">
+                                  <p>Americano đá</p>
+                                  <ul>
+                                    <li style="color: yellow;">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </li>
+                                  </ul>
+        
+                                  <div class="jj">
+                                    <span>1 Gói</span>
+                                    <span>44.000đ</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="buy-button" >Mua Ngay  </button>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col27 ">
+                            <div class="product-card" >
+                              <div class="product-image">
+                                <a href="dendanong.html">
+                                <img src="./image/suatuoicf.png"  style="width:180px" class="gv" />
+                              </a>
+                                <div class="thongtinsanpham">
+                                  <p>Sữa tươi cà phê đá</p>
+                                  <ul>
+                                    <li style="color: yellow;">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </li>
+                                  </ul>
+        
+                                  <div class="jj">
+                                    <span>1 Gói</span>
+                                    <span>44.000đ</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="buy-button" >Mua Ngay  </button>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col27 ">
+                            <div class="product-card" >
+                              <div class="product-image">
+                                <a href="dendanong.html">
+                                <img src="./image/cacao.png"  style="width:92px" class="gv" />
+                              </a>
+                                <div class="thongtinsanpham">
+                                  <p>Cao cao đá</p>
+                                  <ul>
+                                    <li style="color: yellow;">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                    </li>
+                                  </ul>
+        
+                                  <div class="jj">
+                                    <span>1 Gói</span>
+                                    <span>44.000đ</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <button class="buy-button" >Mua Ngay  </button>
+                            </div>
+                          </div>
+                    </div>
+            </div>
+
+        </div>
+        <div class="footer">
+          <div class="left">
+            <h1>Thế Giới Coffee</h1>
+            <div class="row ft2">
+              <div class="col-lg-6 ft1">
+                <ul>
+                  <a href><li>
+                      Trang Chủ
+                    </li></a>
+                  <a href><li>Menu</li></a>
+                  <a href><li>Cửa Hàng</li></a>
+                </ul>
+              </div>
+              <div class="col-lg-6 ft1">
+                <ul>
+                  <a href><li>
+                      Sản Phẩm
+                    </li></a>
+                  <a href><li>Sự kiện</li></a>
+                  <a href><li>Liên hệ</li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <h1 class="dangky">Đăng Ký</h1>
+            <form class="form-newsletter validation-newsletter">
+              <div class="newsletter-input">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="newsletter-button">
+                <input type="submit" name="submit-newsletter" value="Đăng ký">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="maxwidth">
+            <div class="thongtincuoi">
+            
+            <h5><i class="fa-solid fa-location-dot"></i>Lý Chiêu Hoàng, Phường 10, Quận 6 TP.Hồ Chí Minh</h5>
+            <h5>Fax:070xxxxxxx </h5>
+           <i class="iconbot">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+           </i>
+        </div>
+        </div>
+        </div>
+      
+          <div class="contact-icons">
+            <a>
+              <a>
+                <img src="./image/giohang.png" alt="giohang">
+              </a>
+            </a>
+            <a>
+              <img src="./image/zalo.jpg" alt="Zalo">
+            </a>
+            <a>
+              <img src="./image/messenger.png" alt="Messenger">
+            </a>
+            <a>
+              <img src="./image/chatbot.png" alt="chatbot">
+            </a>
+            <div class="top">
+              <a id="back-to-top-anchor">
+                <i class="fa fa-chevron-up" alt="Back To Top"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+    </body>
+    <script src="backtotop.js"></script>
+</html>

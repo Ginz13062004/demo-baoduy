@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./css/sanpham.css">
+    <title>TheGioiCoffee</title>
+    <link rel="icon" href="./image/11zon_cropped.png" type="image/jpg">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="header">
+    <ul class="icon">
+      <li>
+        <div class="searchBox">
+          <input class="searchInput" type="text" name placeholder="Search">
+          <button class="searchButton" href="#">
+            <i class="material-icons">search</i>
+          </button>
+        </div>
+      </li>
+    </ul>
+    <div class="container head">
+      <div class="row">
+        <div class="haha">
+          <img src="./image/11zon_cropped.png" alt class="logo" />
+        </div>
+        <div class="col-lg-8 menu">
+          <ul>
+            <li class="hideonmobile"><a href="index.html">Trang chủ
+                <i class="fa-solid fa-house"></i>
+              </a></li>
+            <li class="c2 hideonmobile">
+              <a href="menu.html">MENU
+                <i class="fa-regular fa-square"></i>
+              </a>
+              <ul class="sub-menu">
+                <li><a href="#">Cà phê</a></li>
+                <li><a href="#">Trà</a></li>
+                <li><a href="#">Sinh tố & Nước ép</a></li>
+                <li><a href="#">Soda</a></li>
+                <li><a href="#">Bánh ngọt</a></li>
+                <li><a href="#">Kem</a></li>
+              </ul>
+            </li>
+            <li class="hideonmobile"><a href="#">Cửa hàng
+                <i class="fa-solid fa-shop"></i>
+              </a></li>
+            <li class="hideonmobile"><a href="sanpham.html">Sản Phẩm
+                <i class="fa-solid fa-newspaper"></i>
+              </a></li>
+            <li class="hideonmobile"><a href="#">Sự kiện
+                <i class="fa-solid fa-calendar"></i>
+              </a></li>
+            <li class="hideonmobile"><a href="#">Liên hệ
+                <i class="fa-solid fa-phone-volume"></i>
+              </a></li>
+              <li class="menu-button" onclick=showSidebar()><i class="fa-solid fa-bars"></i></li>
+          </ul>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()><i class="fa-solid fa-xmark"></i></li>
+            <li><a href="#">Trang chủ
+                <i class="fa-solid fa-house"></i>
+              </a></li>
+            <li class="c2">
+              <a href="menu.html">MENU
+                <i class="fa-regular fa-square"></i>
+              </a>
+              <ul class="sub-menu">
+                <li><a href="#">Cà phê</a></li>
+                <li><a href="#">Trà</a></li>
+                <li><a href="#">Sinh tố & Nước ép</a></li>
+                <li><a href="#">Soda</a></li>
+                <li><a href="#">Bánh ngọt</a></li>
+                <li><a href="#">Kem</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Cửa hàng
+                <i class="fa-solid fa-shop"></i>
+              </a></li>
+            <li><a href="sanpham.html">Sản Phẩm
+                <i class="fa-solid fa-newspaper"></i>
+              </a></li>
+            <li><a href="#">Sự kiện
+                <i class="fa-solid fa-calendar"></i>
+              </a></li>
+            <li><a href="#">Liên hệ
+                <i class="fa-solid fa-phone-volume"></i>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class=" sp">
+        <div class="textleft">
+          <h4>Trang Chủ/Sản Phẩm</h4>
+        </div>
+      </div>
+      <div class="container tieude">
+        <div class="tieude">
+          <h1>Sản Phẩm</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="container">
+        <div class="trungbai">
+          <div class="row rowsp">
+            <div class="col-lg-4 sp1">
+              <div class="product-card">
+                <div class="product-image">
+                  <a href="chitietguvie2.html">
+                  <img src="./image/gv2.png" alt="" class="gv"/>
+                </a>
+                  <div class="thongtinsanpham">
+                    <h4>Guvie 2</h4>
+                    <p>100% Pure coffee - Cà phê nguyên chất</p>
+                    <p>Hương đậm đà, vị ĐẮNG, hàm lượng CAFFEIN vừa</p>
+                    <div class="jj">
+                        <span>1 Gói</span>
+                        <span>44.000đ</span>
+                    </div>
+                </div>
+                </div>
+                <button class="buy-button">Mua</button>
+              </div>
+            </div>
+            <div class="col-lg-4  sp1">
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="./image/gv2.png" alt="" class="gv"/>
+                  <div class="thongtinsanpham">
+                    <h4>Guvie 2</h4>
+                    <p>100% Pure coffee - Cà phê nguyên chất</p>
+                    <p>Hương đậm đà, vị ĐẮNG, hàm lượng CAFFEIN vừa</p>
+                    <div class="jj">
+                        <span>1 Gói</span>
+                        <span>44.000đ</span>
+                    </div>
+                </div>
+                </div>
+                <button class="buy-button">Mua</button>
+              </div>
+            </div>
+             <div class="col-lg-4  sp1">
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="./image/gv2.png" alt="" class="gv"/>
+                  <div class="thongtinsanpham">
+                    <h4>Guvie 2</h4>
+                    <p>100% Pure coffee - Cà phê nguyên chất</p>
+                    <p>Hương đậm đà, vị ĐẮNG, hàm lượng CAFFEIN vừa</p>
+                    <div class="jj">
+                        <span>1 Gói</span>
+                        <span>44.000đ</span>
+                    </div>
+                </div>
+                </div>
+                <button class="buy-button">Mua</button>
+              </div>
+            </div>
+             <div class="col-lg-4 a sp1">
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="./image/gv2.png" alt="" class="gv"/>
+                  <div class="thongtinsanpham">
+                    <h4>Guvie 2</h4>
+                    <p>100% Pure coffee - Cà phê nguyên chất</p>
+                    <p>Hương đậm đà, vị ĐẮNG, hàm lượng CAFFEIN vừa</p>
+                    <div class="jj">
+                        <span>1 Gói</span>
+                        <span>44.000đ</span>
+                    </div>
+                </div>
+                </div>
+                <button class="buy-button">Mua</button>
+              </div>
+            </div> 
+            <div class="col-lg-4 a sp1">
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="./image/gv2.png" alt="" class="gv"/>
+                  <div class="thongtinsanpham">
+                    <h4>Guvie 2</h4>
+                    <p>100% Pure coffee - Cà phê nguyên chất</p>
+                    <p>Hương đậm đà, vị ĐẮNG, hàm lượng CAFFEIN vừa</p>
+                    <div class="jj">
+                        <span>1 Gói</span>
+                        <span>44.000đ</span>
+                    </div>
+                </div>
+                </div>
+                <button class="buy-button">Mua</button>
+              </div>
+            </div> 
+            <div class="col-lg-4 a sp1">
+              <div class="product-card">
+                <div class="product-image">
+                  <img src="./image/gv2.png" alt="" class="gv"/>
+                  <div class="thongtinsanpham">
+                    <h4>Guvie 2</h4>
+                    <p>100% Pure coffee - Cà phê nguyên chất</p>
+                    <p>Hương đậm đà, vị ĐẮNG, hàm lượng CAFFEIN vừa</p>
+                    <div class="jj">
+                        <span>1 Gói</span>
+                        <span>44.000đ</span>
+                    </div>
+                </div>
+                </div>
+                <button class="buy-button">Mua</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="footer">
+          <div class="left">
+            <h1>Thế Giới Coffee</h1>
+            <div class="row ft2">
+              <div class="col-lg-6 ft1">
+                <ul>
+                  <a href><li>
+                      Trang Chủ
+                    </li></a>
+                  <a href><li>Menu</li></a>
+                  <a href><li>Cửa Hàng</li></a>
+                </ul>
+              </div>
+              <div class="col-lg-6 ft1">
+                <ul>
+                  <a href><li>
+                      Sản Phẩm
+                    </li></a>
+                  <a href><li>Sự kiện</li></a>
+                  <a href><li>Liên hệ</li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <h1 class="dangky">Đăng Ký</h1>
+            <form class="form-newsletter validation-newsletter">
+              <div class="newsletter-input">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="newsletter-button">
+                <input type="submit" name="submit-newsletter" value="Đăng ký">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="maxwidth">
+            <div class="thongtincuoi">
+            
+            <h5><i class="fa-solid fa-location-dot"></i>Lý Chiêu Hoàng, Phường 10, Quận 6 TP.Hồ Chí Minh</h5>
+            <h5>Fax:070xxxxxxx </h5>
+           <i class="iconbot">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+           </i>
+        </div>
+        </div>
+        </div>
+    
+        <div class="contact-icons">
+          <a href="#">
+            <img src="./image/giohang.png" alt="giohang">
+          </a>
+          <a href="#">
+            <img src="./image/zalo.jpg" alt="Zalo">
+          </a>
+          <a href="#">
+            <img src="./image/messenger.png" alt="Messenger">
+          </a>
+          <div class="chatbot">
+            <img src="./image/chatbot.png" alt="chatbot" class="chatbot-img">
+            <div class="chat-container">
+              <div class="chat-box" id="chat-box">
+                  <div class="chat-message">Welcome to the chat!</div>
+              </div>
+              <input type="text" id="user-input" placeholder="Type your message...">
+              <button class="nut" onclick="sendMessage()">Send</button>
+            </div>
+          </div>
+          <div class="top">
+            <a id="back-to-top-anchor">
+              <i class="fa fa-chevron-up" alt="Back To Top"></i>
+            </a>
+          </div>
+        </div>
+      
+</div>
+<script src="backtotop.js"></script>
+</body>
+</html>
